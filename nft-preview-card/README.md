@@ -29,8 +29,8 @@ Users are able to:
 
 ### Links
 
-- Solution URL: [Github link](https://github.com/Cozyamy/nft-preview-card.git)
-- Live Site URL: [NFT preview card](https://cozyamy.github.io/nft-preview-card/)
+- Solution URL: [Github link](https://github.com/Cozyamy/Frontend_Mentor/tree/main/nft-preview-card)
+- Live Site URL: [NFT preview card](https://cozyamy.github.io/Frontend_Mentor/nft-preview-card/index.html)
 
 ## My process
 
