@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(237, 242, 248);
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+main {
+	margin: 3% 10% 1% 10%;
+	font-size: 13px;
+	display: grid;
+	gap: 20px;
+	grid-template-areas: 'one one one one two five' 'three four four four four five';
+
+}
+
+img {
+	border-radius: 80px;
+}
+
+.card {
+	padding: 30px;
+	border: none;
+	border-radius: 10px;
+}
+
+h2 {
+	padding: 12px 0;
+	font-weight: 500;
+}
+
+.one {
+	background-color: rgb(115, 63, 200);
+	grid-area: one;
+	background-image: url('./images/bg-pattern-quotation.svg');
+	background-repeat: no-repeat;
+	background-position: 80% 16%;
+}
+
+.one img {
+	border: 3px solid rgb(163, 125, 208);
+}
+
+.one h2, .one h3 {
+	color: rgb(244, 227, 255);
+}
+
+.one p, .one h4 {
+	color: rgb(177, 143, 229);
+	font-weight: 600;
+}
+
+.two {
+	background-color: rgb(73, 85, 107);
+	grid-area: two;
+}
+
+.two > div, .three > div, .four > div, .five > div, .one > div {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.two h2, .two h3 {
+	color: rgb(248, 255, 255);
+}
+
+.two p, .two h4 {
+	color: rgb(201, 208, 224);
+	font-weight: 600;
+}
+
+.three {
+	background-color: #FFFFFF;
+	grid-area: three;
+}
+
+.three h2, .three h3 {
+	color: rgb(115, 118, 123);
+}
+
+.three p, .three h4 {
+	color: rgb(141, 145, 154);
+	font-weight: 600;
+}
+
+.four {
+	background-color: rgb(25, 33, 46);
+	grid-area: four;
+}
+
+.four img {
+	border: 3px solid rgb(96, 73, 151);
+}
+
+.four h2, .four h3 {
+	color: rgb(230, 237, 247);
+}
+
+.four p, .four h4 {
+	color: rgb(182, 186, 197);
+	font-weight: 600;
+}
+
+.five {
+	background-color: #FFFFFF;
+	grid-area: five;
+}
+
+.five h2, .five h3 {
+	color: rgb(121, 125, 137);
+}
+
+.five p, .five h4 {
+	color: rgb(168, 173, 179);
+	font-weight: 600;
+}
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+
+@media only screen and (max-width: 1115px) {
+	main {
+		grid-template-areas: 'one one one one two' 'three four four four four' 'five five five five five';
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	main {
+		grid-template-areas: 'one one one two' 'three four four four' 'five five five five';
+		margin: 7% 7% 3% 7%;
+		gap: 15px;
+	}
+
+	.card {
+		padding: 20px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	main {
+		grid-template-areas: 'one' 'two' 'three' 'four' 'five';
+	}
+}
