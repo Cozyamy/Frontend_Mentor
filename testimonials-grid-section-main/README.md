@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github link](https://github.com/Cozyamy/Frontend_Mentor/tree/main/testimonials-grid-section-main)
+- Live Site URL: [Github Pages](https://cozyamy.github.io/Frontend_Mentor/testimonials-grid-section-main/index.html)
 
 ## My process
 
