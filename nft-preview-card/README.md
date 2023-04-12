@@ -42,6 +42,6 @@ Users are able to:
 
 ## Author
 
-- Website - [My portfolio](https://cozyamy.github.io/Cozy_Portfolio/)
+- Website - [Amarachi Iheakam](https://cozyamy.github.io/Cozy_Portfolio/)
 - Frontend Mentor - [@Cozyamy](https://www.frontendmentor.io/profile/Cozyamy)
 - Twitter - [@AmyyCozy](https://www.twitter.com/AmyyCozy)

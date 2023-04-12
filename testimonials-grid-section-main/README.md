@@ -48,5 +48,5 @@ I learnt how to work with grid and its responsiveness
 ## Author
 
 - Website - [Amarachi Iheakam](https://cozyamy.github.io/Cozy_Portfolio/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Cozyamy)
-- Twitter - [@yourusername](https://www.twitter.com/AmyyCozy)
+- Frontend Mentor - [@Cozyamy](https://www.frontendmentor.io/profile/Cozyamy)
+- Twitter - [@AmyyCozy](https://www.twitter.com/AmyyCozy)
